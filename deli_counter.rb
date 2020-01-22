@@ -8,6 +8,7 @@ def line(a)
     cntr = 0
     while cntr < a.length do
         a[cntr] = "#{cntr}. #{a[cntr]}"
+        cntr += 1
     end
     puts "The line is currently: #{a.join(" ")}"
   end
