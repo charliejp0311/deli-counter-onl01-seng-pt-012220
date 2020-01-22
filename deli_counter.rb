@@ -18,3 +18,7 @@ def take_a_number(a,name)
   a << name
   puts "Welcome, #{a[-1]}. You are number #{a.length} in line."
 end
+
+def now_serving(a)
+  "Now serving #{a[0]}"
+end 
