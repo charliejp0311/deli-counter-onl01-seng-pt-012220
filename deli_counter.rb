@@ -9,7 +9,7 @@ def line(a)
   a.each do |name|
     a[cntr] = "#{cntr + 1}. #{name}"
   end
-  
+
 end
 
 line(katz_deli)
