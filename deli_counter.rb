@@ -16,7 +16,9 @@ end
 
 def take_a_number(a,name)
   a << name
-  #puts "Welcome, #{name}. You are number 1 in line."
+  if a.length == 1
+    puts "Welcome, #{name}. You are number 1 in line."
+  end 
   pp a
 end
 
