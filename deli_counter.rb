@@ -22,7 +22,7 @@ end
 def now_serving(a)
   if a.length >= 1
     puts "Currently serving #{a.first}."
-    a.pop 
+    a.pop
   else
     puts "There is nobody waiting to be served!"
   end
