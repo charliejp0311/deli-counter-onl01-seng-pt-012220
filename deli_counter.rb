@@ -16,14 +16,15 @@ end
 
 def take_a_number(a,name)
   a << name
-  counter = a.length - 1
-  pp a.length
-  while counter < a.length do
-    pp a[counter]
-    pp counter + 1
-    puts "Welcome, #{a[counter]}. You are number #{counter + 1} in line."
-    counter += 1
-  end
+  puts "Welcome, #{a[-1]}. You are number #{a.length} in line."
+  #counter = a.length - 1
+  #pp a.length
+  #while counter < a.length do
+#    pp a[counter]
+#    pp counter + 1
+#    puts "Welcome, #{a[counter]}. You are number #{counter + 1} in line."
+#    counter += 1
+#  end
 end
 
 line(katz_deli)
