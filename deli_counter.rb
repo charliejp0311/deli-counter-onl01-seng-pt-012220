@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(a)
-  if a.empty? 
+  if a.empty?
     "There is nobody waiting to be served!"
   end
 end
