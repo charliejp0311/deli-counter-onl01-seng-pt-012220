@@ -22,5 +22,5 @@ end
 def now_serving(a)
   if line(a) == "The line is currently empty."
     "There is nobody waiting to be served!"
-  end 
+  end
 end
