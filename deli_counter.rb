@@ -7,7 +7,7 @@ def line(a)
   elsif a.length >= 1
     cntr = 0
     while cntr < a.length do
-        a[cntr] = "#{cntr}. #{a[cntr]}"
+        a[cntr] = "#{cntr + 1}. #{a[cntr]}"
         cntr += 1
     end
     puts "The line is currently: #{a.join(" ")}"
