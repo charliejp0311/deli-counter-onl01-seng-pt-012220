@@ -16,7 +16,7 @@ end
 
 def take_a_number(a,name)
   a << name
-  counter = 0
+  counter = a.length - 1
   pp a.length
   while counter < a.length do
     pp a[counter]
