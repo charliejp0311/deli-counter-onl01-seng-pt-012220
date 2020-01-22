@@ -20,5 +20,9 @@ def take_a_number(a,name)
 end
 
 def now_serving(a)
-  puts "There is nobody waiting to be served!"
+  if a.length >= 1
+    puts "Currently serving #{a.first}"
+  else
+    puts "There is nobody waiting to be served!"
+  end
 end
