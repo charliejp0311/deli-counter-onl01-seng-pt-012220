@@ -20,6 +20,7 @@ def take_a_number(a,name)
     puts "Welcome, #{name}. You are number 1 in line."
   end
   a << name
+  pp a 
 end
 
 line(katz_deli)
