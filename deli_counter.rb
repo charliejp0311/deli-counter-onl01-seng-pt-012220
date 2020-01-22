@@ -20,8 +20,5 @@ def take_a_number(a,name)
 end
 
 def now_serving(a)
-  line(a)
-  if a == "The line is currently empty."
-    "There is nobody waiting to be served!"
-  end
+  "There is nobody waiting to be served"
 end
