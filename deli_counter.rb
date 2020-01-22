@@ -14,4 +14,8 @@ def line(a)
   end
 end
 
+def take_a_number(a,name)
+  a << name
+end
+
 line(katz_deli)
