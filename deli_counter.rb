@@ -21,4 +21,4 @@ end
 
 def now_serving(a)
   a.empty? ? puts "There is nobody waiting to be sereved!" : puts "Now serving #{a[0]}"
-end 
+end
