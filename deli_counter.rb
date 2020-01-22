@@ -16,6 +16,7 @@ end
 
 def take_a_number(a,name)
   if line(a) == "The line is currently empty."
+    pp name
     puts "Welcome, #{name}. You are number 1 in line."
   end
   a << name
