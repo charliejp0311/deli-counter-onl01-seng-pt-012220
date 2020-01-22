@@ -20,9 +20,9 @@ def take_a_number(a,name)
 end
 
 def now_serving(a)
-  if a.empty?  
-    "There is nobody waiting to be sereved!" 
+  if a.empty?
+    "There is nobody waiting to be sereved!"
   else
     "Now serving #{a[0]}"
-  end 
+  end
 end
