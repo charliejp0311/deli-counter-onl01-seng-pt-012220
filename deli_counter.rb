@@ -20,7 +20,7 @@ def take_a_number(a,name)
   pp a.length
   while counter < a.length do
     pp a[counter]
-    pp counter
+    pp counter + 1
     puts "Welcome, #{a[counter]}. You are number #{counter + 1} in line."
     counter += 1
   end
