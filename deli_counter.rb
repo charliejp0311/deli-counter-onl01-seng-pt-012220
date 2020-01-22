@@ -6,10 +6,10 @@ def line(a)
     puts "The line is currently empty."
   elsif a.length >= 1
     cntr = 0
-    a.each do |name|
-      a[cntr] = "#{cntr + 1}. #{name}"
+    while cntr < a.length do
+        a[cntr] = "#{cntr}. #{a[cntr]}"
     end
-    puts "The line is currently: #{a}"
+    puts "The line is currently: #{a.join(" ")}"
   end
 end
 
