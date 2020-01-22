@@ -20,5 +20,5 @@ def take_a_number(a,name)
 end
 
 def now_serving(a)
-  "Now serving #{a[0]}"
+  a.empty? ? puts "There is nobody waiting to be sereved!" : puts "Now serving #{a[0]}"
 end 
