@@ -19,6 +19,7 @@ def take_a_number(a,name)
   counter = 0
   while counter < a.length do
     puts "Welcome, #{name}. You are number #{counter + 1} in line."
+    counter += 1
   end
   pp a
 end
